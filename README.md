@@ -1,17 +1,19 @@
 # R6-Helper
-- 这是一个 彩虹六号 战绩查询的酷Q， QQ 机器人插件。
+- 这是一个 彩虹六号：围攻战绩查询的酷Q， QQ 机器人插件。
 
 - 基于 酷Q、cqhttp、SpringBoot、反向websocket 的 QQ 机器人框架
 
-- 这是一个基于Spring-CQ自定义的酷Q机器人插件
+- 基于Spring-CQ自定义的酷Q机器人插件
 
-- 能够实现qq号与彩虹六号ID的绑定
+- 能够实现QQ号与彩虹六号ID的绑定，免去重复输入游戏ID的痛苦
 
-- 数据持久化（就是以一个文件的形式绑定，用数据库，不易于移植）
+- 数据持久化（就是以一个文件的形式存储，这里没有用数据库要不然不易于移植）
 
 - 数据来源 https://r6stats.com
 
 - 参考于 https://github.com/lz1998/spring-cq
+
+- 更多功能，敬请期待。。。。
 
   > 本人实在看不懂C++ 只好这样曲线救国，有机会一定做一个C++版本的
   >
@@ -92,8 +94,8 @@
 双击jar包或者，执行命令
 
 ```
-java -jar spring-cq-0.0.1-SNAPSHOT.jar
+java -jar CQ-R6-helper-0.0.1.jar
 ```
 
-
+jar包下载地址 https://github.com/PasserByJia/CQ-R6-Hepler/releases/tag/0.0.1
 
